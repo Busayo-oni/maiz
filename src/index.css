@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Vidaloka';
+  src: url(../fonts/Vidaloka-Regular.ttf);
+}
+@font-face {
+  font-family: 'CotorisBold';
+  src: url(../fonts/CotorisBold.ttf);
+}
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
