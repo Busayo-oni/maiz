@@ -1,6 +1,6 @@
 import React from 'react'
 import Item from '../assets/Rectangle1.png'
-import map from '../assets/map.png'
+import map from '../assets/Map.png'
 
 export const MapContainer = () => {
   const items = Item
