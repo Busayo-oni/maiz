@@ -12,12 +12,12 @@ const Footer = () => {
     <div className='flex flex-col items-center gap-14 bg-[#CC9D2F] pt-10 '>
         <img src={Logo} alt="web logo" />
         <div className='flex  gap-6 lg:gap-20 cursor-pointer  '>
-            <p className='font-Inter text-[14px] text-[#5B0017] '>Home</p>
-            <p className='font-Inter text-[14px] text-[#5B0017] '>About</p>
-            <p className='font-Inter text-[14px] text-[#5B0017] '>Menu </p>
-            <p className='font-Inter text-[14px] text-[#5B0017] '>Venue</p>
-            <p className='font-Inter text-[14px] text-[#5B0017] '>Events </p>
-            <p className='font-Inter pb-5 text-[14px] text-[#5B0017] '>Contact Us</p>
+            <p className='font-Inter text-[12px] lg:text-[14px] text-[#5B0017] '>Home</p>
+            <p className='font-Inter text-[12px] lg:text-[14px] text-[#5B0017] '>About</p>
+            <p className='font-Inter text-[12px] lg:text-[14px] text-[#5B0017] '>Menu </p>
+            <p className='font-Inter text-[12px] lg:text-[14px] text-[#5B0017] '>Venue</p>
+            <p className='font-Inter text-[12px] lg:text-[14px] text-[#5B0017] '>Events </p>
+            <p className='font-Inter pb-5 text-[12px] lg:text-[14px] text-[#5B0017] '>Contact Us</p>
         </div>
         
     </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <img className='w-[50%] ' src={Instagram} alt="Instagram" />
                 <img className='w-[50%] ' src={LinkedIn} alt="LinkedIn logo" />
             </div>
-            <p className='font-Poppins text-400 text-[#243054] text-[14px] '>Designed BY MaRt, DeOracleEdge, Uyi, Iman</p>
+            <p className='font-Poppins text-400 text-[#243054] lg:text-[14px] text-[12px] '>Designed BY MaRt, DeOracleEdge, Uyi, Iman</p>
         </div>
 
     </>
