@@ -14,7 +14,7 @@ const Header = () => {
             </div>
            
 
-            <nav className={`flex flex-col gap-10 md:flex-row lg:items-center md:items-center  fixed lg:relative md:relative top-0 bg-[#5B0017] pt-40 md:pt-0 lg:pt-0 pl-5 lg:pl-0 md:pl-0 z-50 h-full md:top-0 left-0 w-[30%]  md:bg-transparent transition-transform ${
+            <nav className={`flex flex-col gap-10 md:flex-row lg:items-center md:items-center  fixed lg:relative md:relative top-0 bg-[#5B0017] pt-40 md:pt-0 lg:pt-0 pl-5 lg:pl-0 md:pl-0 z-50 h-full md:top-0 left-0 w-[50%]  md:bg-transparent transition-transform ${
             isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
           }`}>
               <Link to="/HeroSection" className="font-CotorisBold text-[21px] hover:underline">

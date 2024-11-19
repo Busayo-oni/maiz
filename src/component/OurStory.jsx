@@ -13,7 +13,7 @@ const OurStory = () => {
     <div className='bg-auto bg-no-repeat '
     style={{backgroundImage: `url(${items})`, backgroundSize: '45%'}} >
     <Header />
-    <section className='w-[100%] grid grid-cols-1 lg:p-10  gap-10 lg:grid-cols-2 '
+    <section className='w-[100%] grid grid-cols-1 px-4 lg:p-10  gap-10 lg:grid-cols-2 '
      >
     <div className='w-[85%]'>
         <h1 className='font-CotorisBold lg:text-[70px] text-[40px] font-400 text-[#5B0017]  '>Our Story</h1>
