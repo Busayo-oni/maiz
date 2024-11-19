@@ -38,21 +38,21 @@ const CultureSection = () => {
         </button>
         </div>
         </div>
-        <div className="mt-8 flex justify-between space-x-4 lg:justify-start">
+        <div className="mt-8 flex  gap-5 lg:gap-2 lg:flex-row justify-center space-x-4 lg:justify-start">
       <img
         src={imag}
         alt="Venue 1"
-        className="w-[100%] lg:w-[25%] object-cover rounded-md shadow-md"
+        className="w-[25%] lg:w-[25%] object-cover rounded-md shadow-md"
       />
       <img
         src={imagei}
         alt="Venue 2"
-        className="w-[100%] lg:w-[25%] object-cover rounded-md shadow-md"
+        className="w-[25%] lg:w-[25%] object-cover rounded-md shadow-md"
       />
       <img
         src={imageu}
         alt="Venue 3"
-        className="w-[100%] lg:w-[25%] object-cover rounded-md shadow-md  "
+        className="w-[25%] lg:w-[25%] object-cover rounded-md shadow-md  "
       />
     </div>
     <div className='border-[#CC9D2F] border-b-[3px] w-[70%] pt-10'></div>
